@@ -12,7 +12,7 @@ export default function Contact() {
           </p>
           <div className="contactgrid">
             {CONTACT_LINKS.map((l) => (
-              <a className="contactlink" key={l.k} href={l.href}>
+              <a className="contactlink" key={l.k} href={l.href} target={l.k === "CV" ? "_blank" : undefined} rel={l.k === "CV" ? "noopener noreferrer" : undefined}>
                 <p className="contactk">{l.k}</p>
                 <p className="contactv">{l.v}</p>
               </a>

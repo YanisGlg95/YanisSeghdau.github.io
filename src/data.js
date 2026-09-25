@@ -37,4 +37,5 @@ export const CONTACT_LINKS = [
   { k: "LinkedIn", v: "yanis-seghdau", href: "https://www.linkedin.com/in/yanis-seghdau-/" },
   { k: "GitHub", v: "YanisGlg95", href: "https://github.com/YanisGlg95" },
   { k: "GitLab", v: "YanisGlg95", href: "https://gitlab.com/YanisGlg95" },
+  { k: "CV", v: "CV Yanis", href: "assets/docs/SEGHDAU_Yanis_DevFullStack.pdf" }
 ];
